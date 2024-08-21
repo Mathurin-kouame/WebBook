@@ -197,3 +197,8 @@ span {
 .event p {
     font-size: 12px;
 }
+
+.event a {
+    font-size: 12px;
+    text-decoration: none;
+}
