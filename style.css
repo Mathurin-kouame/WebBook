@@ -254,7 +254,7 @@ span {
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: linear-gradient(transparent,rgba(0, 0, 0, 0.5)),url(images/photo\ mathurin.jpeg);
+    background-image: linear-gradient(transparent,rgba(0, 0, 0, 0.5)),url(img/photo\ mathurin.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
