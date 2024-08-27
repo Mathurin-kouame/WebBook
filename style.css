@@ -9,6 +9,8 @@
     --body-color :#efefef;
     --nav-color: #1a5276;
     --bg-color : #fff;
+    --primary-color: #edf2fc;
+    --secondary-color:#212121;
 }
 
 .dark-theme {
@@ -515,4 +517,63 @@ nav {
 #dark-btn.dark-btn-on {
     padding-left: 23px;
     background: #000;
+}
+
+/* responsive design  media screen*/
+
+@media (max-width: 900px) {
+    .right-sidebar{
+        display: none;
+    }
+    .left-sidebar {
+        display: none;
+    }
+    nav {
+        flex-wrap: wrap;
+    }
+    .search-box {
+        display: none;
+    }
+    .nav-left ul li img {
+        width: 20px;
+        margin: 0 8px;
+    }
+    .nav-user-icon img {
+        width: 30px;
+        height: 30px;
+    }
+    .nav-user-icon {
+        margin-left: 0;
+    }
+    .add-post-links {
+        flex-wrap: wrap;
+    }
+    .main-content {
+        flex-basis: 100%;
+    }
+    .story img {
+        width: 25px;
+        border-width: 3px;
+    }
+    .story p {
+        font-size: 10px;
+    }
+    .settings-menu {
+        top: 100%
+    }
+    .story.story1 img {
+         width: 25px;
+         bottom: 30px;
+    }
+    .add-post-links a {
+        margin-right: 12px;
+        font-size: 9px;
+    }
+    .add-post-links a img {
+        width: 16px;
+        margin-right: 5px;
+    }
+    .post-input-container {
+        padding-left: 0;
+    }
 }
