@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webBook|profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/909e9bf8a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav>
+            <div class="nav-left">
+               <a href="index.html" class="logo"><span>web</span>Book</a>
+                <ul>
+                    <li><img src="img/notification.png"></li>
+                    <li><img src="img/inbox.png"></li>
+                    <li><img src="img/video.png"></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="img/search.png">
+                  <input type="text" placeholder="recheche" class="inputNav">
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="img/photo mathurin.jpeg">
+                </div>
+            </div>
+            <!-- settings menu -->
+            <div class="settings-menu">
+                <div id="dark-btn" class="dark-btn-on">
+                    <span></span>
+                </div>
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="img/photo mathurin.jpeg">
+                        <div>
+                            <p>Mathus Rolther</p>
+                            <a href="#">voir mon profil</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="img/feedback.png">
+                        <div>
+                            <p>Donner votre avis</p>
+                            <a href="#">Aide</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings-links">
+                        <img src="img/setting.png" class="settings-icon">
+                        <a href="#">Paramètres et confidentialité <img src="img/arrow.png" 
+                         width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="img/help.png" class="settings-icon">
+                        <a href="#">Aide et assistance<img src="img/arrow.png" 
+                         width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="img/display.png" class="settings-icon">
+                        <a href="#">affichage et accessibilité <img src="img/arrow.png" 
+                         width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="img/logout.png" class="settings-icon">
+                        <a href="#">Se déconnecter <img src="img/arrow.png" 
+                         width="10px"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+   <!-- profile page -->
+        <div class="profile-container">
+            <img src="img/cover.png" class="cover-img">
+            <div class="profile-details">
+                <div class="pd-left">
+                    <div class="pd-row">
+                        <img src="img/profile.png" alt="">
+                        <div>
+                            <h3>Jackson</h3>
+                            <p>120 friends - 20 mutual</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pd-right"></div>
+            </div>
+        </div>
+    <!-- footer -->
+        <footer class="footer">
+             <p>copyright   2024 - webbook 01 App-web</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
